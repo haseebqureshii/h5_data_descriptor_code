@@ -132,6 +132,9 @@ def generate_topology_plots(summary_df):
     fig2.update_layout(title="Dataset Logic Flow: How Attributes Interconnect")
     parcats_out = Path.cwd() / "dataset_topology_parallel_categories.html"
     fig2.write_html(parcats_out)
+    # Assuming fig1 (Treemap) and fig2 (Parallel) are your Plotly objects
+    fig1.write_html("treemap.html", full_html=False, include_plotlyjs='cdn')
+    fig2.write_html("parallel.html", full_html=False, include_plotlyjs='cdn')
     print(f"Saved interactive parallel categories plot to: {parcats_out}")
 
 if __name__ == "__main__":
