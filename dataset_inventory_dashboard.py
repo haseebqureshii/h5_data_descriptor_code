@@ -138,5 +138,5 @@ def generate_topology_plots(summary_df):
     print(f"Saved interactive parallel categories plot to: {parcats_out}")
 
 if __name__ == "__main__":
-    summary_df = generate_dataset_dashboard(r"M:\Melt-Pool-Kinetics A multi-source melt pool compilation for vision-based analytics applications in additive manufacturing\Metadata Revised.xlsx")
+    summary_df = generate_dataset_dashboard("../Metadata Revised.xlsx")
     generate_topology_plots(summary_df)

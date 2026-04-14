@@ -65,7 +65,7 @@ def browse_h5_source(file_path, target_source=None, frames_to_show=5):
                 print(f"  {k}: {v}")
 
 if __name__ == "__main__":
-    browse_h5_source(r'M:\Melt-Pool-Kinetics A multi-source melt pool compilation for vision-based analytics applications in additive manufacturing\Final_DatasetV3.h5')
+    browse_h5_source("../Final_DatasetV3.h5")
 
 
 # Example Usage (Run this in a cell):

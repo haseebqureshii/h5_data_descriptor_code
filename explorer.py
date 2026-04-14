@@ -83,7 +83,7 @@ def explore_melt_pool_h5(file_path, num_samples=3):
         plt.close()
 
 if __name__ == "__main__":
-    explore_melt_pool_h5(r"M:\Melt-Pool-Kinetics A multi-source melt pool compilation for vision-based analytics applications in additive manufacturing\Final_DatasetV3.h5")
+    explore_melt_pool_h5("../Final_DatasetV3.h5")
 
 # Update this path to where your 48GB file is stored (e.g., in Drive or Local)
 # H5_PATH = "/content/drive/MyDrive/Melt-Pool-Kinetics.h5"
